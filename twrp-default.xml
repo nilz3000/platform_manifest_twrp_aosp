@@ -46,7 +46,7 @@
         <linkfile src="target" dest="build/target"/>
         <linkfile src="tools" dest="build/tools"/>
     </project>
-    <project path="build/soong" name="nilz3000/android_build_soong" remote="github" revision="android-13-new">
+    <project path="build/soong" name="TeamWin/android_build_soong" remote="github" revision="android-13">
         <linkfile src="root.bp" dest="Android.bp"/>
         <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     </project>
@@ -63,7 +63,7 @@
     <project path="system/vold" name="nilz3000/android_system_vold" remote="github" revision="android-13-new"/>
 
     <!-- Use TeamWin custom vendor repo for build system -->
-    <project path="vendor/twrp" name="android_vendor_twrp" remote="TeamWin" revision="android-13" />
+    <project path="vendor/twrp" name="nilz3000/android_vendor_twrp" remote="github" revision="android-13" />
 
     <!-- Include phh's treble repo for lptools support -->
     <project name="phhusson/vendor_lptools" path="external/lptools" remote="github" revision="master" />

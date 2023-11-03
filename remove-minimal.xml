@@ -339,7 +339,6 @@
     <remove-project name="platform/external/rust/crates/async-stream"  />
     <remove-project name="platform/external/rust/crates/async-stream-impl"  />
     <remove-project name="platform/external/rust/crates/async-task"  />
-    <remove-project name="platform/external/rust/crates/async-trait"  />
     <remove-project name="platform/external/rust/crates/atty"  />
     <remove-project name="platform/external/rust/crates/bencher"  />
     <remove-project name="platform/external/rust/crates/bstr"  />
@@ -348,7 +347,6 @@
     <remove-project name="platform/external/rust/crates/cast"  />
     <remove-project name="platform/external/rust/crates/chrono"  />
     <remove-project name="platform/external/rust/crates/crc32fast"  />
-    <remove-project name="platform/external/rust/crates/codespan-reporting"  />
     <remove-project name="platform/external/rust/crates/criterion"  />
     <remove-project name="platform/external/rust/crates/criterion-plot"  />
     <remove-project name="platform/external/rust/crates/crossbeam-channel"  />
@@ -358,7 +356,6 @@
     <remove-project name="platform/external/rust/crates/csv"  />
     <remove-project name="platform/external/rust/crates/csv-core"  />
     <remove-project name="platform/external/rust/crates/derive_arbitrary"  />
-    <remove-project name="platform/external/rust/crates/downcast-rs"  />
     <remove-project name="platform/external/rust/crates/flate2"  />
     <remove-project name="platform/external/rust/crates/fnv"  />
     <remove-project name="platform/external/rust/crates/form_urlencoded"  />
@@ -376,7 +373,6 @@
     <remove-project name="platform/external/rust/crates/grpcio"  />
     <remove-project name="platform/external/rust/crates/grpcio-compiler"  />
     <remove-project name="platform/external/rust/crates/grpcio-sys"  />
-    <remove-project name="platform/external/rust/crates/half"  />
     <remove-project name="platform/external/rust/crates/heck"  />
     <remove-project name="platform/external/rust/crates/idna"  />
     <remove-project name="platform/external/rust/crates/instant"  />
@@ -392,14 +388,12 @@
     <remove-project name="platform/external/rust/crates/macaddr"  />
     <remove-project name="platform/external/rust/crates/managed"  />
     <remove-project name="platform/external/rust/crates/matches"  />
-    <remove-project name="platform/external/rust/crates/memoffset"  />
     <remove-project name="platform/external/rust/crates/mio"  />
     <remove-project name="platform/external/rust/crates/no-panic"  />
     <remove-project name="platform/external/rust/crates/num-derive"  />
     <remove-project name="platform/external/rust/crates/num-integer"  />
     <remove-project name="platform/external/rust/crates/num-traits"  />
     <remove-project name="platform/external/rust/crates/num_cpus"  />
-    <remove-project name="platform/external/rust/crates/once_cell"  />
     <remove-project name="platform/external/rust/crates/oorandom"  />
     <remove-project name="platform/external/rust/crates/parking_lot"  />
     <remove-project name="platform/external/rust/crates/parking_lot_core"  />
@@ -429,9 +423,6 @@
     <remove-project name="platform/external/rust/crates/ryu"  />
     <remove-project name="platform/external/rust/crates/same-file"  />
     <remove-project name="platform/external/rust/crates/scopeguard"  />
-    <remove-project name="platform/external/rust/crates/serde"  />
-    <remove-project name="platform/external/rust/crates/serde_cbor"  />
-    <remove-project name="platform/external/rust/crates/serde_derive"  />
     <remove-project name="platform/external/rust/crates/serde_json"  />
     <remove-project name="platform/external/rust/crates/serde_test"  />
     <remove-project name="platform/external/rust/crates/shared_child"  />
@@ -440,7 +431,6 @@
     <remove-project name="platform/external/rust/crates/structopt"  />
     <remove-project name="platform/external/rust/crates/structopt-derive"  />
     <remove-project name="platform/external/rust/crates/syn-mid"  />
-    <remove-project name="platform/external/rust/crates/termcolor"  />
     <remove-project name="platform/external/rust/crates/thread_local"  />
     <remove-project name="platform/external/rust/crates/tinytemplate"  />
     <remove-project name="platform/external/rust/crates/tinyvec"  />
@@ -452,7 +442,6 @@
     <remove-project name="platform/external/rust/crates/unicode-bidi"  />
     <remove-project name="platform/external/rust/crates/unicode-normalization"  />
     <remove-project name="platform/external/rust/crates/unicode-segmentation"  />
-    <remove-project name="platform/external/rust/crates/unicode-width"  />
     <remove-project name="platform/external/rust/crates/untrusted"  />
     <remove-project name="platform/external/rust/crates/url"  />
     <remove-project name="platform/external/rust/crates/uuid"  />
@@ -460,7 +449,6 @@
     <remove-project name="platform/external/rust/crates/walkdir"  />
     <remove-project name="platform/external/rust/crates/weak-table"  />
     <remove-project name="platform/external/rust/crates/zip"  />
-    <remove-project name="platform/external/rust/cxx"  />
     <remove-project name="platform/external/ruy"  />
     <remove-project name="platform/external/s2-geometry-library-java"  />
     <remove-project name="platform/external/scapy" />
@@ -526,7 +514,6 @@
     <remove-project name="platform/frameworks/layoutlib"/>
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/libs/modules-utils" />
-    <remove-project name="platform/frameworks/libs/net" />
     <remove-project name="platform/frameworks/libs/native_bridge_support" />
     <remove-project name="platform/frameworks/libs/service_entitlement" />
     <remove-project name="platform/frameworks/minikin"/>
@@ -681,6 +668,7 @@
     <remove-project name="platform/packages/inputmethods/LatinIME" />
     <remove-project name="platform/packages/inputmethods/LeanbackIME" />
 
+    <remove-project name="platform/packages/modules/Bluetooth" />
     <remove-project name="platform/packages/modules/ArtPrebuilt" />
     <remove-project name="platform/packages/modules/BootPrebuilt/5.4/arm64" />
     <remove-project name="platform/packages/modules/BootPrebuilt/5.10/arm64" />
@@ -748,6 +736,7 @@
     <remove-project name="platform/prebuilts/manifest-merger" />
     <remove-project name="platform/prebuilts/maven_repo/android"/>
     <remove-project name="platform/prebuilts/maven_repo/bumptech"/>
+    <remove-project name="platform/prebuilts/module_sdk/Bluetooth" />
     <remove-project name="platform/prebuilts/module_sdk/art" />
     <remove-project name="platform/prebuilts/module_sdk/conscrypt" />
     <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
@@ -780,21 +769,20 @@
     <remove-project name="platform/system/testing/gtest_extras" />
 
     <!-- Remove platform/test/vts to avoid the test errors and more dependencies -->
-    <remove-project name="platform/test/framework" groups="vts,projectarch,pdk" />
-    <remove-project name="platform/test/mlts/benchmark" groups="pdk" />
-    <remove-project name="platform/test/mlts/models" groups="pdk" />
-    <remove-project name="platform/test/app_compat/csuite" groups="pdk" />
+    <remove-project name="platform/test/framework"/>
+    <remove-project name="platform/test/mlts/benchmark"/>
+    <remove-project name="platform/test/mlts/models"/>
+    <remove-project name="platform/test/app_compat/csuite"/>
     <remove-project name="platform/test/cts-root" />
     <remove-project name="platform/test/mts" />
-    <remove-project name="platform/test/vts" groups="vts,pdk" />
-    <remove-project name="platform/test/vts-testcase/fuzz" groups="vts,projectarch,pdk" />
-    <remove-project name="platform/test/vts-testcase/hal" groups="vts,pdk" />
-    <remove-project name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" />
-    <remove-project name="platform/test/vts-testcase/kernel" groups="vts,pdk" />
-    <remove-project name="platform/test/vts-testcase/nbu" groups="vts,projectarch,pdk" />
-    <remove-project name="platform/test/vts-testcase/performance" groups="vts,projectarch,pdk" />
-    <remove-project name="platform/test/vts-testcase/security" groups="vts,projectarch,pdk" />
-    <remove-project name="platform/test/vts-testcase/vndk" groups="vts,pdk" />
+    <remove-project name="platform/test/vts"/>
+    <remove-project name="platform/test/vts-testcase/fuzz" />
+    <remove-project name="platform/test/vts-testcase/hal-trace"/>
+    <remove-project name="platform/test/vts-testcase/kernel"/>
+    <remove-project name="platform/test/vts-testcase/nbu"/>
+    <remove-project name="platform/test/vts-testcase/performance"/>
+    <remove-project name="platform/test/vts-testcase/security"/>
+    <remove-project name="platform/test/vts-testcase/vndk"/>
     <remove-project name="platform/test/catbox" />
 
     <remove-project name="platform/tools/aadevtools"/>
@@ -820,6 +808,7 @@
     <remove-project name="platform/tools/swt"/>
     <remove-project name="platform/tools/test/connectivity"/>
     <remove-project name="platform/tools/test/graphicsbenchmark"/>
+    <remove-project name="platform/tools/test/mobly_snippets"/>
     <remove-project name="platform/tools/test/openhst"/>
     <remove-project name="platform/tools/tradefederation/prebuilts"/>
     <remove-project name="platform/tools/treble"/>
